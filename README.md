@@ -10,7 +10,7 @@
 
 iDogtify uses a fine-tuned ConvNeXt-Small model to identify dog breeds from photos and live camera. It analyses visual features — ear shape, muzzle length, coat texture, body proportions — and matches them against 120 breeds. Mixed-breed dogs get a probability spread across the top matches instead of a single forced answer.
 
----
+--- 
 
 ## Stack
 
