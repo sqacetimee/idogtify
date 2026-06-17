@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Stanford Dogs training data — large, don't commit
+data/
+
+# Trained model weights — distribute via HuggingFace Hub instead
+app/ml/models/*.pth
+
+# SQLite dev database
+*.db
+
+# macOS
+.DS_Store

@@ -1,0 +1,16 @@
+# Python
+**/__pycache__/
+**/*.pyc
+**/venv/
+**/.env
+backend/data/
+backend/app/ml/models/*.pth
+backend/*.db
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+
+# macOS
+.DS_Store
