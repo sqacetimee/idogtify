@@ -27,7 +27,7 @@ iDogtify uses a fine-tuned ConvNeXt-Small model to identify dog breeds from phot
 
 ---
 
-## Model
+## Model 
 
 - **Architecture**: ConvNeXt-Small pretrained on ImageNet-21k, fine-tuned on Stanford Dogs
 - **Training strategy**: Two-phase — frozen backbone linear probe, then full fine-tune with differential learning rates (backbone 5e-6, head 5e-5) and label smoothing
